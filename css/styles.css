@@ -1,0 +1,157 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-font: Roboto;
+  --secondary-font: Raleway;
+}
+/* Header styles starts here */
+body {
+  font-family: var(--primary-font), sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  letter-spacing: 0, 03em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: var(--secondary-font), sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0, 03em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.link-box-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.primary-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: #757575;
+}
+.btn {
+  background-color: var(--accent-color);
+  font-size: 16px;
+  line-height: 1, 9;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* differences */
+.section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.details {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* processes and team */
+.vector,
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 18;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 18;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* portfolio */
+.filters-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+}
+.portfolio-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-projeсt {
+  font-size: 16px;
+  line-height: 1, 9;
+  color: var(--title-text-color);
+}
+/* footer */
+.address,
+.contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.contacts {
+  color: var(--primary-text-color);
+}
