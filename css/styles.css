@@ -5,6 +5,8 @@
   --primary-white-color: #ffffff;
   --primary-font: Roboto;
   --secondary-font: Raleway;
+  --footer-color: #2f303a;
+  --text-footer: rgba(255, 255, 255, 0.6);
 }
 /* Хедер */
 body {
@@ -22,12 +24,13 @@ a {
 }
 
 .logo {
-  font-family: var(--secondary-font), sans-serif;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  text-decoration: none;
 }
 .logo-web {
   color: var(--accent-color);
@@ -37,7 +40,6 @@ a {
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
-  text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -49,7 +51,6 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 .contacts-link:hover,
 .contacts-link:focus {
@@ -64,7 +65,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  background-color: #757575;
+  background-color: #2f303a;
 }
 .btn {
   font-weight: 700;
@@ -82,6 +83,15 @@ a {
 .btn:focus {
   background-color: #058cf7;
   color: var(--title-text-color);
+}
+.title {
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 /* Наши преимущества */
 .section-title {
@@ -149,15 +159,28 @@ a {
   color: var(--title-text-color);
 }
 /* Футер */
+
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
 .link-connection {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  text-decoration: none;
+  color: var(--text-footer);
 }
 .link-connection:hover,
 .link-connection:focus {
-  color: var(--primary-text-color);
+  color: var(--primary-white-color);
+}
+footer {
+  background-color: var(--footer-color);
 }
